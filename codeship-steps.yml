@@ -15,7 +15,7 @@
 - name: "integration tests"
   service: integration
   tag: master
-  command: ./scripts/integration
+  command: ./scripts/integrations
 
 - name: "verify release"
   service: test
